@@ -34,41 +34,30 @@ body {
     max-width: 960px;
   }
 }
-.index {
-  /* ==========================================================================
-   Cabeçalho
-   ========================================================================== */
-  /* ==========================================================================
-   fim do Cabeçalho
-   ========================================================================== */
-  /* ==========================================================================
-   fim do main
-   ========================================================================== */
-  /* ==========================================================================
-   fim do main
-   ========================================================================== */
-}
-.index header {
+/* ==========================================================================
+ Cabeçalho
+ ========================================================================== */
+header {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.index header .top {
+header .top {
   padding: 14px 0 0 0;
   background-color: #1659bf;
 }
-.index header .top a {
+header .top a {
   color: #dcecff !important;
 }
-.index header .top nav ul {
+header .top nav ul {
   list-style: none;
   float: left;
   width: 50%;
   font-size: 10px;
 }
-.index header .top nav ul li {
+header .top nav ul li {
   display: inline;
 }
-.index header .top nav ul li::after {
+header .top nav ul li::after {
   background: white;
   color: #2d2e82;
   counter-increment: nav1;
@@ -76,21 +65,21 @@ body {
   padding: 1px 3px;
   margin-right: 8px;
 }
-.index header .top #portal-siteactions {
+header .top #portal-siteactions {
   border-bottom: 1px dotted #6893cb;
   list-style: none;
 }
-.index header .top #portal-siteactions li {
+header .top #portal-siteactions li {
   display: inline;
   margin-right: 0.5em;
   text-transform: uppercase;
   font-size: 10px;
 }
-.index header .top #portal-siteactions li a {
+header .top #portal-siteactions li a {
   padding: 4px 0 4px 10px;
   text-decoration: none;
 }
-.index header .top #portal-siteactions {
+header .top #portal-siteactions {
   display: block;
   float: right;
   clear: none;
@@ -98,20 +87,18 @@ body {
   font-size: 0.93em;
   text-align: center;
 }
-.index header .top #logo {
+header .top #logo {
   float: left;
   padding: 0;
   color: white;
+  position: relative;
 }
-.index header .top #logo span {
+header .top #logo span {
   position: absolute;
   display: block;
   line-height: 1em;
 }
-.index header .top #logo #portal-title-1 {
-  top: 35px;
-}
-.index header .top #logo #portal-title {
+header .top #logo #portal-title {
   margin: 0;
   margin: 20px 0 46px;
   color: #fff;
@@ -120,7 +107,7 @@ body {
   font-weight: 800;
   line-height: 1em;
 }
-.index header .sub-top {
+header .sub-top {
   clear: both;
   margin: 0;
   padding: 5px 0;
@@ -128,41 +115,125 @@ body {
   line-height: 20px;
   background: #0f4098;
 }
-.index header .sub-top ul {
+header .sub-top ul {
   margin: 0 auto;
   max-width: 960px;
   text-align: right;
   line-height: 20px;
 }
-.index header .sub-top ul li {
+header .sub-top ul li {
   display: inline;
   border-right: 1px solid white;
   margin-right: 10px;
   padding-right: 10px;
 }
-.index header .sub-top ul li:last-child {
+header .sub-top ul li:last-child {
   margin-right: 0px;
+  border-right: none;
 }
-.index main p {
-  font-size: 15px;
-  line-height: 21px;
-}
-.index main #portal-breadcrumbs {
+/* ==========================================================================
+ fim do Cabeçalho
+ ========================================================================== */
+#portal-breadcrumbs {
   margin-top: 19px;
   margin-bottom: 19px;
   text-transform: uppercase;
   font-size: 10px;
 }
-.index main #portal-breadcrumbs a {
+#portal-breadcrumbs a {
   color: #2C66CE;
 }
+.title-header {
+  border-top: 2px solid #00439e;
+  background: #eeeff1;
+  padding: 6px 15px;
+  padding-right: 0px;
+  color: #00439e;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: #1659bf;
+  border-color: #1659bf;
+}
+/* ==========================================================================
+  footer
+  ========================================================================== */
+footer {
+  color: white;
+  padding: 20px 0;
+  padding-bottom: 5px;
+  margin-top: 70px;
+  min-height: 50px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: white;
+}
+footer .doormatSection {
+  border-left: 1px dotted #fff;
+  padding-left: .4em;
+}
+footer .doormatSection dt {
+  padding-left: .7em;
+  font-size: 1.2em;
+}
+footer .doormatSection dd {
+  padding: .5em 1.2em 0 1em;
+}
+footer .content {
+  background: #1659bf;
+  width: 100%;
+  padding: 20px 0;
+}
+footer > .container {
+  margin-top: 20px;
+}
+footer .footer-logos {
+  background: #0042b1;
+  padding: 2em 0;
+  max-width: 100%;
+}
+footer .extra-footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .extra-footer .container img {
+  margin-top: 10px;
+}
+footer .doormatColumn {
+  width: 22%;
+  float: left;
+}
+/* ==========================================================================
+ fim do footer
+ ========================================================================== */
+.index {
+  /* ==========================================================================
+   fim do main
+   ========================================================================== */
+  /* ==========================================================================
+   fim do main
+   ========================================================================== */
+}
+.index main p {
+  font-size: 15px;
+  line-height: 21px;
+}
 .index main .col-1 {
-  width: 335px;
+  width: 47.2%;
   margin-top: 30px;
   float: left;
 }
 .index main .col-2 {
-  width: 700px;
+  width: 72.1%;
   float: left;
 }
 .index main .remove-margin {
@@ -170,7 +241,7 @@ body {
 }
 .index main aside {
   float: left;
-  width: 230px;
+  width: 23.8%;
   position: relative;
 }
 .index main .espace-left {
@@ -179,19 +250,12 @@ body {
 .index main .espace-right {
   margin-right: 30px;
 }
-.index main .title-header {
-  border-top: 2px solid #00439e;
-  background: #eeeff1;
-  padding: 6px 15px;
-  padding-right: 0px;
-  color: #00439e;
-  margin-top: 0px;
-}
 .index main .mt-form-group {
   margin-top: 18px;
 }
 .index main .banner {
   margin-top: 45px;
+  margin-bottom: 20px;
 }
 .index main .lista-vertical {
   border: 1px solid #c0c1c3;
@@ -228,29 +292,84 @@ body {
 }
 .index main .tile-footer {
   text-align: right;
+  font-size: 14px;
   text-transform: uppercase;
 }
-.index footer {
-  color: white;
-  padding: 20px 0;
-  padding-bottom: 5px;
-  margin-top: 70px;
-  min-height: 50px;
+.busca .quantidade {
+  margin-top: 20px;
 }
-.index footer .content {
-  background: #1659bf;
+.busca .resultados {
+  margin-top: 30px;
+}
+.busca .resultados div.col-md-12 {
+  border-top: 1px solid black;
+}
+.busca .resultados div.col-md-12:last-child {
+  border-bottom: 1px solid black;
+}
+.busca .resultados p {
+  margin: 17px 0;
+}
+.busca .resultados p a {
+  color: black;
+}
+.busca .resultados p a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+.busca .resultados .crms {
+  margin: 17px 0;
+}
+.busca .resultados .crms li {
+  display: inline;
+  margin-right: 29px;
+}
+.busca .resultados .crms li a {
+  color: black;
+}
+.busca .resultados .crms li a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+.busca .resultados .crms li:last-child {
+  margin-right: 0px;
+}
+.busca .col-md-9 {
+  padding-left: 0px;
+}
+.busca .col-md-3 {
+  padding-right: 0px;
+}
+.busca .pagination {
+  margin-top: 35px;
+}
+.busca .resultado-busca p {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+.col-3 {
   width: 100%;
 }
-.index footer a {
-  color: white;
+@media only screen and (max-width: 768px) {
+  .index main .col-2 {
+    width: 100%;
+    float: none;
+  }
+  .banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 25px;
+  }
+  .index main aside {
+    width: 60%;
+  }
 }
-.index footer .footer-logos {
-  background: #0042b1;
-  padding: 2em 0;
-  max-width: 100%;
-}
-.index footer .extra-footer p {
-  margin: 1em auto;
-  max-width: 960px;
-  color: black;
+@media only screen and (max-width: 600px) {
+  header .top nav ul {
+    width: 100%;
+  }
+  .index main .col-1 {
+    width: 100%;
+  }
 }
