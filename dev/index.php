@@ -35,46 +35,9 @@ include 'header.php';
 
                 <form class="busca-geral" action="#" method="post">
                       <div class="col-1 espace-right">
-                        <h2 class="title-header">
-                          Buscar médico
-                        </h2>
 
-                        <div class="form-group mt-form-group">
-                                   <input type="text" class="form-control" id="search" placeholder="Pesquisar nome, especialidade, CPF ou CRM-UF">
-                               </div>
-                               <div class="form-group">
-                                 <select class="form-control">
-                                   <option>Selecione o Estado</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5</option>
-                                 </select>
-                               </div>
-                               <div class="form-group">
-                                 <select class="form-control">
-                                   <option>Selecione o Município</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5</option>
-                                 </select>
-                               </div>
-
-                               <div class="form-group">
-                                 <select class="form-control">
-                                   <option>Selecione a Especialidade</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5</option>
-                                 </select>
-                               </div>
-                               <button type="submit" class="btn btn-primary">Buscar</button>
-                      </div><!-- ./col-1 -->
-                      <div class="col-1">
-                        <h2 class="title-header">
-                          Buscar especialidade
+                        <h2 class="title-header reduce-font">
+                          Lista de especialistas
                         </h2>
                         <div class="form-group mt-form-group">
                                    <input type="text" class="form-control" id="search" placeholder="Pesquisar especialidade">
@@ -99,6 +62,38 @@ include 'header.php';
                                </div>
 
                                <button type="submit" class="btn btn-primary">Buscar</button>
+                      </div><!-- ./col-1 -->
+                      <div class="col-1">
+
+                          <h2 class="title-header">
+                            Buscar médico
+                          </h2>
+
+                          <div class="form-group mt-form-group">
+                                     <input type="text" class="form-control" id="search" placeholder="Pesquisar nome, CPF ou CRM-UF">
+                                 </div>
+                                 <div class="form-group">
+                                   <select class="form-control">
+                                     <option>Selecione o Estado</option>
+                                     <option>2</option>
+                                     <option>3</option>
+                                     <option>4</option>
+                                     <option>5</option>
+                                   </select>
+                                 </div>
+                                 <div class="form-group">
+                                   <select class="form-control">
+                                     <option>Selecione o Município</option>
+                                     <option>2</option>
+                                     <option>3</option>
+                                     <option>4</option>
+                                     <option>5</option>
+                                   </select>
+                                 </div>
+
+
+                                 <button type="submit" class="btn btn-primary">Buscar</button>
+
                       </div><!-- ./col-1 -->
 
                 </form>

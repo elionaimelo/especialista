@@ -12,22 +12,22 @@
             <nav>
               <ul>
                 <li>
-                  <a href="#">
+                  <a id="main" href="#">
                     Ir para o conteúdo
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a id="menu" href="#">
                     Ir para o menu
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a id="busca-geral" href="#">
                     Ir para a busca
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a id="footer" href="#">
                     Ir para o rodapé
                   </a>
                 </li>
@@ -50,18 +50,26 @@
         <section class="sub-top">
             <ul>
               <li>
-                Sobre
-              </li>
-              <li>Como acessar</li>
-              <li>
-                Legislação
+                <a id="about" href="#">
+                  Sobre
+                </a>
               </li>
               <li>
-                Ajuda
+                <a href="#">
+                  Como acessar
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Legislação
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Ajuda
+                </a>
               </li>
             </ul>
 
         </section><!-- ./sub-top -->
       </header>
-
-      

@@ -1,7 +1,7 @@
 
 
 
-      <footer>
+      <footer id="about">
         <div class="content">
             <div class="container">
               <div class="doormatColumn column-0">
