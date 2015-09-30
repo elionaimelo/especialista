@@ -51,6 +51,44 @@ aside {
   width: 23.8%;
   position: relative;
 }
+#mapa {
+  margin: 0;
+}
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
+.dataTables_wrapper {
+  margin-top: 50px;
+}
+thead {
+  color: #2160BD;
+  background: #EAEBEE;
+}
+thead th {
+  text-align: center;
+  vertical-align: middle !important ;
+  font-weight: 500;
+}
+.table-bordered {
+  border: 1px solid #9C9B9B;
+  border-radius: 4px;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-left: 1px solid #9C9B9B;
+  border-right: 1px solid #9C9B9B;
+}
+.table-bordered th:first-child {
+  -moz-border-radius: 4px 0 0 0;
+  -webkit-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
 .espace-left {
   margin-left: 30px;
 }
@@ -166,7 +204,7 @@ header .top #logo #portal-title {
   margin: 0;
   margin: 20px 0 46px;
   color: #fff;
-  font-size: 3.35em;
+  font-size: 2.8em;
   font-family: 'Open Sans' Arial, Helvetica, sans-serif;
   font-weight: 800;
   line-height: 1em;
@@ -522,7 +560,8 @@ footer .doormatColumn {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 @media only screen and (max-width: 768px) {
-  .index main .col-2 {
+  .index main .col-2,
+  .forca-trabalho main .col-2 {
     width: 100%;
     float: none;
   }
@@ -532,8 +571,12 @@ footer .doormatColumn {
     display: block;
     padding-top: 25px;
   }
-  .index main aside {
+  .index main aside,
+  .forca-trabalho main aside {
     width: 60%;
+  }
+  .forca-trabalho .col-1 {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
