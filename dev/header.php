@@ -36,7 +36,7 @@
 
               <ul id="portal-siteactions"><li id="siteaction-accessibility"><a href="#" title="Acessibilidade" accesskey="5">Acessibilidade</a></li>
                   <li id="siteaction-contraste"><a href="#" title="Alto Contraste" accesskey="6">Alto Contraste</a></li>
-                  <li id="siteaction-mapadosite" class="last-item"><a href="#" title="Mapa do Site" accesskey="7">Mapa do Site</a></li>
+                  <li id="siteaction-mapadosite" class="last-item"><a href="mapadosite.php" title="Mapa do Site" accesskey="7">Mapa do Site</a></li>
               </ul>
 
               <div id="logo">

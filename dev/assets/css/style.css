@@ -324,6 +324,35 @@ footer .doormatColumn {
 /* ==========================================================================
  fim do footer
  ========================================================================== */
+/* ==========================================================================
+Mapa do site
+ ========================================================================== */
+#content .visualNoMarker {
+  list-style: none;
+  margin-left: 0;
+}
+#content li {
+  margin-bottom: 0.25em;
+  list-style: square outside;
+  line-height: 1.5em !important;
+}
+#portal-sitemap > li {
+  border-bottom: 0.1em dotted #ddd;
+  line-height: 1.8em;
+  padding: 0.25em 1em;
+  margin-bottom: 0;
+}
+.navTreeLevel2,
+.navTreeLevel2 ul {
+  font-size: 90%;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding: 0.25em 0;
+  margin-left: 2em;
+}
+/* ==========================================================================
+Fim do Mapa do site
+ ========================================================================== */
 .index main p {
   font-size: 15px;
   line-height: 21px;
