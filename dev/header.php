@@ -12,12 +12,12 @@
             <nav>
               <ul>
                 <li>
-                  <a id="main" href="#">
+                  <a id="main" accesskey="1" href="#acontent">
                     Ir para o conteúdo
                   </a>
                 </li>
                 <li>
-                  <a id="menu" href="#">
+                  <a id="menu" href="#amenu">
                     Ir para o menu
                   </a>
                 </li>
@@ -27,7 +27,7 @@
                   </a>
                 </li>
                 <li>
-                  <a id="footer" href="#">
+                  <a id="footer" accesskey="4" href="#afooter" id="link-rodape">
                     Ir para o rodapé
                   </a>
                 </li>
@@ -48,6 +48,7 @@
           </div>
         </section><!-- ./top -->
         <section class="sub-top">
+          <a name="amenu" id="amenu"></a>
             <ul>
               <li>
                 <a id="about" href="#">

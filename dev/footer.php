@@ -2,6 +2,7 @@
 
 
       <footer id="about">
+        <a name="afooter" id="afooter"></a>
         <div class="content">
             <div class="container">
               <div class="doormatColumn column-0">
@@ -9,20 +10,20 @@
                 <dl class="doormatSection">
                   <dt class="doormatSectionHeader">Navegue Aqui</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/cidadao" class="external-link">Cidadão</a>
+                    <a href="" class="external-link">Cidadão</a>
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/empresa" class="external-link">Empresa</a>
+                    <a href="" class="external-link">Empresa</a>
 
                   </dd>
                 </dl>
                 <dl class="doormatSection"><dt class="doormatSectionHeader">Orientação</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/aduaneira" class="external-link">Aduaneira</a>
+                    <a href="" class="external-link">Aduaneira</a>
 
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/tributaria" class="external-link">Tributária</a>
+                    <a href="" class="external-link">Tributária</a>
 
                   </dd>
                 </dl>
@@ -33,20 +34,20 @@
                 <dl class="doormatSection">
                   <dt class="doormatSectionHeader">Navegue Aqui</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/cidadao" class="external-link">Cidadão</a>
+                    <a href="" class="external-link">Cidadão</a>
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/empresa" class="external-link">Empresa</a>
+                    <a href="" class="external-link">Empresa</a>
 
                   </dd>
                 </dl>
                 <dl class="doormatSection"><dt class="doormatSectionHeader">Orientação</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/aduaneira" class="external-link">Aduaneira</a>
+                    <a href="" class="external-link">Aduaneira</a>
 
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/tributaria" class="external-link">Tributária</a>
+                    <a href="" class="external-link">Tributária</a>
 
                   </dd>
                 </dl>
@@ -57,20 +58,20 @@
                 <dl class="doormatSection">
                   <dt class="doormatSectionHeader">Navegue Aqui</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/cidadao" class="external-link">Cidadão</a>
+                    <a href="" class="external-link">Cidadão</a>
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/empresa" class="external-link">Empresa</a>
+                    <a href="" class="external-link">Empresa</a>
 
                   </dd>
                 </dl>
                 <dl class="doormatSection"><dt class="doormatSectionHeader">Orientação</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/aduaneira" class="external-link">Aduaneira</a>
+                    <a href="" class="external-link">Aduaneira</a>
 
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/tributaria" class="external-link">Tributária</a>
+                    <a href="" class="external-link">Tributária</a>
 
                   </dd>
                 </dl>
@@ -80,20 +81,20 @@
                 <dl class="doormatSection">
                   <dt class="doormatSectionHeader">Navegue Aqui</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/cidadao" class="external-link">Cidadão</a>
+                    <a href="" class="external-link">Cidadão</a>
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/interface/empresa" class="external-link">Empresa</a>
+                    <a href="" class="external-link">Empresa</a>
 
                   </dd>
                 </dl>
                 <dl class="doormatSection"><dt class="doormatSectionHeader">Orientação</dt>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/aduaneira" class="external-link">Aduaneira</a>
+                    <a href="" class="external-link">Aduaneira</a>
 
                   </dd>
                   <dd class="doormatSectionBody">
-                    <a href="http://idg.receita.fazenda.gov.br/orientacao/tributaria" class="external-link">Tributária</a>
+                    <a href="" class="external-link">Tributária</a>
 
                   </dd>
                 </dl>

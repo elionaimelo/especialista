@@ -13,6 +13,7 @@ include 'header.php';
       <main>
 
         <div class="container">
+          <a name="afooter" id="acontent"></a>
             <div id="viewlet-above-content">
               <div id="portal-breadcrumbs">
                 <span id="breadcrumbs-you-are-here">Você está aqui:</span>
