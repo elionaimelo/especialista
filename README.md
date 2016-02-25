@@ -1,4 +1,4 @@
-#Grunt Boilerplate
+#Cadastro nacional de especialistas
 
 
 ## Lista de lugins Grunt
@@ -18,9 +18,8 @@
 1. Clone the project and run the [NPM](https://npmjs.org/)
 
 ``` bash
-git clone git://github.com/elionaimelo/grunt-boilerplate.git
+git clone git@github.com:elionaimelo/especialista.git
 cd grunt-boilerplate
 npm install
 grunt w
 ```
-
