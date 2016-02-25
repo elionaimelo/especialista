@@ -1,0 +1,643 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#barra-brasil {
+  background: black !important;
+}
+
+#barra-brasil a {
+  color: #FF0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #9C9B9B;
+}
+select.form-control {
+  color: #9C9B9B;
+}
+.btn-primary {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  counter-reset: nav1;
+  background: black;
+}
+
+body p {
+  color: white;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* alterando o grip para 960 */
+@media (min-width: 1200px) {
+  .container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 960px;
+  }
+}
+.col-1 {
+  width: 47.2%;
+  margin-top: 30px;
+  float: left;
+}
+.col-2 {
+  width: 72.1%;
+  float: left;
+}
+.remove-margin {
+  margin: 0px;
+}
+aside {
+  float: left;
+  width: 23.8%;
+  position: relative;
+}
+#mapa {
+  margin: 0;
+}
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
+.dataTables_wrapper {
+  margin-top: 50px;
+}
+thead {
+  color: #2160BD;
+  background: #EAEBEE;
+}
+thead th {
+  text-align: center;
+  vertical-align: middle !important ;
+  font-weight: 500;
+}
+.table-bordered {
+  border: 1px solid #9C9B9B;
+  border-radius: 4px;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-left: 1px solid #9C9B9B;
+  border-right: 1px solid #9C9B9B;
+}
+.table-bordered th:first-child {
+  -moz-border-radius: 4px 0 0 0;
+  -webkit-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+.espace-left {
+  margin-left: 30px;
+}
+.espace-right {
+  margin-right: 30px;
+}
+.mt-form-group {
+  margin-top: 18px;
+}
+.lista-vertical {
+  border: 1px solid #c0c1c3;
+  -webkit-border-radius: 5px;
+  margin-top: 38px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #eeeff1 !important;
+}
+.tile {
+  clear: both;
+  margin-bottom: 1.8em;
+}
+.lista-vertical .tile-header,
+.lista-vertical .tile-title,
+.lista-vertical .collection-header,
+.lista-vertical .collection-title {
+  margin: 0;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #c0c1c3;
+  color: #464a53;
+  text-transform: uppercase;
+}
+.lista-vertical .collection-item {
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: 0 9px;
+  border-bottom: 1px dotted #c1c2c2;
+  position: relative;
+}
+.lista-vertical .collection-item h3 {
+  font-size: 1.16em;
+}
+.tile-footer {
+  text-align: right;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* ==========================================================================
+ Cabeçalho
+ ========================================================================== */
+header {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .top {
+  padding: 14px 0 0 0;
+  background-color: black;
+}
+header .top a {
+  color: white !important;
+}
+header .top nav ul {
+  list-style: none;
+  float: left;
+  width: 50%;
+  font-size: 10px;
+}
+header .top nav ul li {
+  display: inline;
+}
+header .top nav ul li::after {
+  background: white;
+  color: white;
+  counter-increment: nav1;
+  content: counter(nav1);
+  padding: 1px 3px;
+  margin-right: 8px;
+}
+header .top #portal-siteactions {
+  border-bottom: 1px dotted white;
+  list-style: none;
+}
+header .top #portal-siteactions li {
+  display: inline;
+  margin-right: 0.5em;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+header .top #portal-siteactions li a {
+  padding: 4px 0 4px 10px;
+  text-decoration: none;
+}
+header .top #portal-siteactions {
+  display: block;
+  float: right;
+  clear: none;
+  padding-bottom: 2px;
+  font-size: 0.93em;
+  text-align: center;
+}
+header .top #logo {
+  float: left;
+  padding: 0;
+  color: white;
+  position: relative;
+}
+header .top #logo span {
+  position: absolute;
+  display: block;
+  line-height: 1em;
+}
+header .top #logo #portal-title {
+  margin: 0;
+  margin: 20px 0 46px;
+  color: #fff;
+  font-size: 2.8em;
+  font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 1em;
+}
+header .sub-top {
+  clear: both;
+  margin: 0;
+  padding: 5px 0;
+  max-width: 100% !important;
+  line-height: 20px;
+  background: #333;
+}
+header .sub-top ul {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: right;
+  line-height: 20px;
+}
+header .sub-top ul li {
+  display: inline;
+  border-right: 1px solid white;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+header .sub-top ul li:last-child {
+  margin-right: 0px;
+  border-right: none;
+}
+header .sub-top ul li a {
+  color: white;
+}
+header .sub-top ul li a:hover {
+  text-decoration: underline;
+}
+/* ==========================================================================
+ fim do Cabeçalho
+ ========================================================================== */
+#portal-breadcrumbs {
+  margin-top: 19px;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#portal-breadcrumbs a {
+  color: white;
+}
+#breadcrumbs-you-are-here , #breadcrumbs-current , .breadcrumbSeparator {
+  color: white;
+}
+
+.title-header {
+  border-top: 2px solid white;
+  background: #eeeff1;
+  padding: 6px 15px;
+  padding-right: 0px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: black;
+  border-color: black;
+}
+/* ==========================================================================
+  footer
+  ========================================================================== */
+footer {
+  color: white;
+  padding: 20px 0;
+  padding-bottom: 5px;
+  margin-top: 70px;
+  min-height: 50px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: white;
+}
+footer .doormatSection {
+  border-left: 1px dotted #fff;
+  padding-left: .4em;
+}
+footer .doormatSection dt {
+  padding-left: .7em;
+  font-size: 1.2em;
+}
+footer .doormatSection dd {
+  padding: .5em 1.2em 0 1em;
+}
+footer .content {
+  background: black;
+  width: 100%;
+  padding: 20px 0;
+}
+footer > .container {
+  margin-top: 20px;
+}
+footer .footer-logos {
+  background: #333;
+  padding: 2em 0;
+  max-width: 100%;
+}
+footer .extra-footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .extra-footer .container img {
+  margin-top: 10px;
+}
+footer .doormatColumn {
+  width: 22%;
+  float: left;
+}
+/* ==========================================================================
+ fim do footer
+ ========================================================================== */
+/* ==========================================================================
+Mapa do site
+ ========================================================================== */
+#content .visualNoMarker {
+  list-style: none;
+  margin-left: 0;
+}
+#content li {
+  margin-bottom: 0.25em;
+  list-style: square outside;
+  line-height: 1.5em !important;
+}
+#portal-sitemap > li {
+  border-bottom: 0.1em dotted #ddd;
+  line-height: 1.8em;
+  padding: 0.25em 1em;
+  margin-bottom: 0;
+}
+.navTreeLevel2,
+.navTreeLevel2 ul {
+  font-size: 90%;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding: 0.25em 0;
+  margin-left: 2em;
+}
+/* ==========================================================================
+Fim do Mapa do site
+ ========================================================================== */
+.index main p {
+  font-size: 15px;
+  line-height: 21px;
+}
+.index main .banner {
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.index main .reduce-font {
+  font-size: 27px;
+}
+.busca .quantidade {
+  margin-top: 20px;
+}
+.busca .resultados {
+  margin-top: 30px;
+}
+.busca .resultados div.col-md-12 {
+  border-top: 1px solid white;
+}
+.busca .resultados div.col-md-12:last-child {
+  border-bottom: 1px solid black;
+}
+.busca .resultados p {
+  margin: 17px 0;
+}
+.busca .resultados p a {
+  color: black;
+}
+.busca .resultados p a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+.busca .resultados .crms {
+  margin: 17px 0;
+}
+.busca .resultados .crms li {
+  display: inline;
+  margin-right: 29px;
+}
+.busca .resultados .crms li a {
+  color: black;
+}
+.busca .resultados .crms li a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+.busca .resultados .crms li:last-child {
+  margin-right: 0px;
+}
+.busca .col-md-9 {
+  padding-left: 0px;
+}
+.busca .col-md-3 {
+  padding-right: 0px;
+}
+.busca .pagination {
+  margin-top: 35px;
+}
+.busca .resultado-busca p {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+.col-3 {
+  width: 100%;
+}
+.area-medico .menu-title-header {
+  margin-bottom: 0px;
+  margin-top: -7px;
+}
+.area-medico .menu-title-header li {
+  display: inline;
+  border-right: 1px solid white;
+  padding: 0 28px;
+  font-weight: 400;
+}
+.area-medico .menu-title-header li:first-child {
+  padding-left: 0px;
+}
+.area-medico .menu-title-header li:last-child {
+  border-right: none;
+}
+.area-medico .ds-dados {
+  padding: 15px 30px;
+  background: #EAEBEE;
+}
+.area-medico .ds-dados .form-group {
+  margin-bottom: 4px;
+}
+.area-medico .ds-dados .form-group label {
+  color: #4E4E4E;
+}
+.area-medico .ds-tabs {
+  margin-top: 30px;
+}
+.area-medico .ds-tabs .nav > li > a {
+  padding: 5px 15px;
+}
+.area-medico .ds-tabs .nav-tabs > li {
+  background: #F6F6F6;
+  margin-left: 5px;
+  border: 1px solid #C0C1C1;
+  margin-bottom: -4px;
+  border-bottom: none;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 4px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.area-medico .ds-tabs .nav-tabs > li a {
+  color: black;
+}
+.area-medico .ds-tabs .nav-tabs > li:first-child {
+  margin-left: 0px;
+}
+.area-medico .ds-tabs .nav-tabs > li.active > a {
+  background: #EAEBEE;
+  color: black;
+  border: none;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 4px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.area-medico .ds-tabs .nav-tabs > li > a:hover {
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 4px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.area-medico .ds-tabs .nav-tabs > li.active > a,
+.area-medico .ds-tabs .nav-tabs > li.active > a:hover,
+.area-medico .ds-tabs .nav-tabs > li.active > a:focus {
+  margin-top: -5px;
+  border-top: 1px solid #C0C1C1;
+  padding-bottom: 15px;
+  -webkit-border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 6px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 100%;
+}
+.area-medico .ds-tabs .tab-content {
+  border: 1px solid #C0C1C1;
+}
+.area-medico .ad {
+  margin-bottom: 20px;
+  display: block;
+}
+.area-medico .ad:last-child {
+  margin-bottom: 0px;
+}
+.login .margin-top {
+  margin-top: 24px;
+}
+.login .row-log h3 {
+  font-weight: bold;
+  padding-bottom: 0px;
+  color: black;
+}
+.login .row-log h4 {
+  color: #666666;
+  font-weight: 300;
+}
+.login .row-log hr {
+  margin-top: 0px;
+}
+.login .row-log .col-md-6:first-child {
+  padding-right: 40px;
+}
+.login .row-log .col-md-6:last-child {
+  border-left: 1px solid #E2E2E2;
+  padding-left: 40px;
+}
+.login .row-log .col-md-6:last-child p {
+  padding-left: 26px;
+}
+.login .well {
+  background-color: #F7F7F7;
+  /* just in case there no content*/
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  /* shadows and rounded borders */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 768px) {
+  .index main .col-2,
+  .forca-trabalho main .col-2 {
+    width: 100%;
+    float: none;
+  }
+  .banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 25px;
+  }
+  .index main aside,
+  .forca-trabalho main aside {
+    width: 60%;
+  }
+  .forca-trabalho .col-1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .top nav ul {
+    width: 100%;
+  }
+  .index main .col-1 {
+    width: 100%;
+  }
+  footer .doormatColumn {
+    float: none;
+  }
+}

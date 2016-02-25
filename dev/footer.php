@@ -128,20 +128,21 @@
       </footer>
 
 
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
       <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/scripts.min.js"></script>
+        <!-- <script src="assets/js/scripts.min.js"></script> -->
+        <script src="assets/js/js.js"></script>
 
         <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
 
-        <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+        <!-- <script src="http://code.highcharts.com/maps/highmaps.js"></script>
         <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
         <script src="http://code.highcharts.com/mapdata/countries/br/br-all.js"></script>
 
 
-    		<script type="text/javascript" src="http://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
+    		<script type="text/javascript" src="http://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script> -->
 
 
 

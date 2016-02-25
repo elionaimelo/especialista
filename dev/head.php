@@ -15,7 +15,8 @@
 
 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" title="1">
+        <link rel="alternate stylesheet" type="text/css" href="assets/css/stylealt.css" title="2">
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
